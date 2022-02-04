@@ -1,7 +1,7 @@
 # This module creates a key pair
 ```
 module "dev" {
-    source = "../"
+    source = "turkanamammadova/keypair/aws"
     region = "us-east-1"
     key_name_prefix = "dev-"
     key_name_location = "~/.ssh/id_rsa.pub"
